@@ -2,7 +2,7 @@
 
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if board[index].to_i.between?(1, 9)
+  if index.to_i.between?(1, 9)
     true #returns true for valid position on empty board
   # position_taken?(board, index)
   end
